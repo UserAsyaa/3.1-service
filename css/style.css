@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    background-color: #F8F8F8;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    padding: 17px;
+}
+
+.header_center{
+    margin-left: auto;
+    align-items: center;
+   
+}
+
+.header_nav li {
+    margin-left:16px;
+} 
+
+    
+
+
+.circle{
+    height: 40px;
+    min-width: 40px;
+    background-color:#FF3E79 ;
+    border-radius: 20px;
+    border:none;
+}
+
+
+.burger_button{
+    min-width: 40px;
+    margin-right: 17px;
+    background-image: url();
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+
+.logo{
+    margin-right: 17px;
+    
+}
+  .phone_button{
+    
+}
+.chat_button{
+
+}
+.profile_button{
+
+}
+
+.repair_button{
+
+}
+
+.checkstatus_button{
+} 
+
+
+
+ul{
+    display: flex;
+    margin: 0;
+    
+}
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+.header_second{
+    display: flex;
+    align-items: center;
+}
+
+
+.title{
+    margin-left: 20px;
+}
+.group{
+    display: none
+    
+}
+.group p{
+    margin-left: 17px;
+}
+.group button{
+
+    margin-left: 9px;
+    margin-right: 17px;
+}
+
+.checkstatus_button, .repair_button{
+    
+}
+
+
+.scroll{
+    overflow: auto;
+}
+
+.scroll_elements{
+    width: 100%;
+    overflow: auto;
+    
+}
+.scroll_elements li{
+    display: flex;
+    align-items: center;
+    color: #7E7E82;
+    margin-right:25px;
+    flex-shrink: 0;
+    height: 24px;
+    size:16px;
+    letter-spacing:-0.2px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #7E7E82;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.active{
+    border:2px solid #B8FFEC;
+    background-color: #F8F8F8;
+    border-radius:5px;
+    padding: 18px;
+}
+
+.further{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media(max-width:767px){
+    nav,ul{
+        display: flex;
+    }
+    
+    .repair_button{
+        display:block;
+    }
+
+    .divider3,
+    .divider1,
+    .header_center > .phone_button,
+    .header_center > .chat_button, 
+    .header_center > .profile_button{
+        display: none;
+    }
+
+    .scroll{
+        margin-left: 20px;
+        margin-top: 14px;
+        margin-bottom:14px ;
+    }
+
+    .second_paragraph{
+        display: none;
+    }
+
+    .first_paragraph, .title, .further{
+        margin-top: 14px;
+        margin-bottom:14px ;
+    }
+    
+    .work_mode{
+        
+        width: 100%;
+        margin-top: 14px;
+        margin-bottom:14px ;
+    }
+}
+
+@media(min-width:768px){
+    nav,ul{
+        display:flex; 
+    }
+    .divider2 {
+        display: none;
+    }
+    .phone_button, .chat_button, .profile_button{
+        display: block;
+    }
+    .second_paragraph{
+        padding-top: 14px;
+        display:block;
+    }
+    .scroll{
+        padding: 25px;
+    }
+    .content{
+        display: flex;
+        padding:25px;
+    }
+    .post{
+        margin-right: 50px;
+    }
+    .work_mode{
+        width: 50%;
+        border-radius: 10px;
+    }
+    .further{
+        padding-top:14px;
+    }
+
+}
+
+@media(min-width:1120px){
+    nav,  ul{
+        display: flex;
+    }
+
+    header{
+        display: none;
+    }
+
+    .group{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .header_second{
+        padding-top: 30px;
+    }
+
+    .repair, .checkstatus{
+        margin-left: 20px;
+    }
+
+    
+}  
+    
+    
