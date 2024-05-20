@@ -7,6 +7,7 @@
 
 
 body{
+    font-family: TTLakes, Sans-serif, Arial, serif;
     margin: 0;
     padding: 0;
 }
@@ -46,7 +47,7 @@ main{
 .burger_button{
     min-width: 40px;
     margin-right: 17px;
-    background-image: url();
+    background-image: url(../img/ic/burger.svg);
     background-position:center center;
     background-repeat:no-repeat;
 }
@@ -57,20 +58,35 @@ main{
     
 }
   .phone_button{
-    
+    background-image: url(../img/ic/phone.svg);
+    background-position:center center;
+    background-repeat:no-repeat;
 }
 .chat_button{
-
+    background-image: url(../img/chat.svg );
+    background-position:center center;
+    background-repeat:no-repeat;
 }
 .profile_button{
+    background-image:url(../img/profil.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
 
 }
 
 .repair_button{
+background-image:url(../img/repair.svg);
+background-position: center;
+background-repeat: no-repeat;
 
 }
 
 .checkstatus_button{
+    background-image:url(../img/checkstatus.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
 } 
 
 
@@ -98,6 +114,13 @@ li{
 
 .title{
     margin-left: 20px;
+    color: #1B1C21;
+    font-size: 28px;
+    font-weight: 700px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+
+
 }
 .group{
     display: none
@@ -116,6 +139,11 @@ li{
     
 }
 
+p{
+    font-size: 14px;
+    color: #1B1C21;
+    letter-spacing: 0.2px;
+}
 
 .scroll{
     overflow: auto;
@@ -131,12 +159,15 @@ li{
     align-items: center;
     color: #7E7E82;
     margin-right:25px;
+    padding-top: 20px;
     flex-shrink: 0;
     height: 24px;
     size:16px;
     letter-spacing:-0.2px;
 
 }
+
+
 
 a{
     text-decoration: none;
@@ -156,6 +187,13 @@ a{
 .further{
     display: flex;
     align-items: center;
+
+}
+
+.further_text{
+    color: #1B1C21;
+    font-size: 16px;
+    letter-spacing:-0.2px;
 }
 
 
@@ -176,6 +214,7 @@ a{
     .header_center > .profile_button{
         display: none;
     }
+
 
     .scroll{
         margin-left: 20px;
