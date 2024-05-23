@@ -221,6 +221,9 @@ a{
     .header_center, .divider1{
         display: none;
     }
+    .header_right{
+        margin-left: auto;
+    }
 
     .scroll{
         margin-left: 20px;
